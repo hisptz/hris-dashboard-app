@@ -5,7 +5,7 @@
 [![devDependencies Status](https://david-dm.org/hisptz/hris-dashboard-app/dev-status.svg)](https://david-dm.org/hisptz/hris-dashboard?type=dev)
 [![Maintainability](https://api.codeclimate.com/v1/badges/5735498569bed0f37266/maintainability)](https://codeclimate.com/github/hisptz/hris-dashboard-app/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/5735498569bed0f37266/test_coverage)](https://codeclimate.com/github/hisptz/hris-dashboard-app/test_coverage)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![Greenkeeper badge](https://badges.greenkeeper.io/hisptz/hris-dashboard-app.svg)](https://greenkeeper.io/)
 
 A Dashboard with full blown interactive capabilities that lets user easily switch between multiple visualizations (tables, charts and maps), allowing user to download data for offline usage, while still shading insights into dictionary of the involved metadata. Among other interactive features includes capability to navigate through data across organisation unit hierarchy, periods and data and spark conversation on analysed data
 
