@@ -1,11 +1,11 @@
 # HRIS Dashboard
 
 [![Build Status](https://travis-ci.org/hisptz/hris-dashboard-app.svg?branch=master)](https://travis-ci.org/hisptz/hris-dashboard-app)
-[![dependencies Status](https://david-dm.org/hisptz/hris-dashboard-app/status.svg)](https://david-dm.org/hisptz/idashboard)
-[![devDependencies Status](https://david-dm.org/hisptz/hris-dashboard-app/dev-status.svg)](https://david-dm.org/hisptz/idashboard?type=dev)
+[![dependencies Status](https://david-dm.org/hisptz/hris-dashboard-app/status.svg)](https://david-dm.org/hisptz/hris-dashboard)
+[![devDependencies Status](https://david-dm.org/hisptz/hris-dashboard-app/dev-status.svg)](https://david-dm.org/hisptz/hris-dashboard?type=dev)
 [![Maintainability](https://api.codeclimate.com/v1/badges/5735498569bed0f37266/maintainability)](https://codeclimate.com/github/hisptz/hris-dashboard-app/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/5735498569bed0f37266/test_coverage)](https://codeclimate.com/github/hisptz/hris-dashboard-app/test_coverage)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![Greenkeeper badge](https://badges.greenkeeper.io/hisptz/idashboard.svg)](https://greenkeeper.io/)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 A Dashboard with full blown interactive capabilities that lets user easily switch between multiple visualizations (tables, charts and maps), allowing user to download data for offline usage, while still shading insights into dictionary of the involved metadata. Among other interactive features includes capability to navigate through data across organisation unit hierarchy, periods and data and spark conversation on analysed data
 
@@ -20,13 +20,13 @@ A Dashboard with full blown interactive capabilities that lets user easily switc
 Clone repository
 
 ```bash
- git clone https://github.com/hisptz/idashboard.git
+ git clone https://github.com/hisptz/hris-dashboard.git
 ```
 
 Navigate to application root folder
 
 ```bash
-cd idashboard
+cd hris-dashboard
 ```
 
 Install all required dependencies for the app
