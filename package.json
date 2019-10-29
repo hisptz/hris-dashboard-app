@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --aot && cd dist/idashboard && zip -r -D dqa-dashboard.zip .",
+    "build": "ng build --prod --aot && cd dist/hris-dashboard && zip -r -D hris-dashboard.zip .",
     "test": "ng test",
     "test:travis": "ng test -- --no-watch --no-progress --code-coverage --browsers=ChromeHeadlessCI",
     "lint": "ng lint",
