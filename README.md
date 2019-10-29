@@ -1,13 +1,13 @@
-[![Build Status](https://travis-ci.org/hisptz/idashboard.svg?branch=master)](https://travis-ci.org/hisptz/idashboard)
-[![dependencies Status](https://david-dm.org/hisptz/idashboard/status.svg)](https://david-dm.org/hisptz/idashboard)
-[![devDependencies Status](https://david-dm.org/hisptz/idashboard/dev-status.svg)](https://david-dm.org/hisptz/idashboard?type=dev)
-[![Maintainability](https://api.codeclimate.com/v1/badges/dbe97dbdfbd55344c38f/maintainability)](https://codeclimate.com/github/hisptz/idashboard/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/dbe97dbdfbd55344c38f/test_coverage)](https://codeclimate.com/github/hisptz/idashboard/test_coverage)
+# HRIS Dashboard
+
+[![Build Status](https://travis-ci.org/hisptz/hris-dashboard-app.svg?branch=master)](https://travis-ci.org/hisptz/hris-dashboard-app)
+[![dependencies Status](https://david-dm.org/hisptz/hris-dashboard-app/status.svg)](https://david-dm.org/hisptz/idashboard)
+[![devDependencies Status](https://david-dm.org/hisptz/hris-dashboard-app/dev-status.svg)](https://david-dm.org/hisptz/idashboard?type=dev)
+[![Maintainability](https://api.codeclimate.com/v1/badges/5735498569bed0f37266/maintainability)](https://codeclimate.com/github/hisptz/hris-dashboard-app/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/5735498569bed0f37266/test_coverage)](https://codeclimate.com/github/hisptz/hris-dashboard-app/test_coverage)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![Greenkeeper badge](https://badges.greenkeeper.io/hisptz/idashboard.svg)](https://greenkeeper.io/)
 
-# Interactive Dashboard 2
-
-A dashboard with full blown interactive capabilities that lets user easily switch between multiple visualizations (tables, charts and maps), allowing user to download data for offline usage, while still shading insights into dictionary of the involved metadata. Among other interactive features includes capability to navigate through data across organisation unit hierarchy, periods and data and spark conversation on analysed data
+A Dashboard with full blown interactive capabilities that lets user easily switch between multiple visualizations (tables, charts and maps), allowing user to download data for offline usage, while still shading insights into dictionary of the involved metadata. Among other interactive features includes capability to navigate through data across organisation unit hierarchy, periods and data and spark conversation on analysed data
 
 ## Prerequisites
 
