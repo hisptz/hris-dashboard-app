@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxDhis2HttpClientModule } from '@iapps/ngx-dhis2-http-client';
-import { NgxDhis2MenuModule } from '@iapps/ngx-dhis2-menu';
+import { HrisMenuModule } from '@iapps/hris-menu';
 import { EffectsModule } from '@ngrx/effects';
 import {
   RouterStateSerializer,
@@ -17,9 +17,9 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { environment } from '../environments/environment';
 import { AppComponent } from './app.component';
 import { RoutingModule } from './app.routes';
+import { RouteSerializer } from './core/utils';
 import { effects } from './store/effects';
 import { metaReducers, reducers } from './store/reducers';
-import { RouteSerializer } from './core/utils';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -44,7 +44,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     /**
      * Menu  module
      */
-    NgxDhis2MenuModule,
+    HrisMenuModule,
 
     /**
      * Translation module

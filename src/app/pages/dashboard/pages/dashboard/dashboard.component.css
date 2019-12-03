@@ -10,14 +10,9 @@
 }
 
 .dashboard-header {
-  position: fixed;
-  top: 48px;
-  width: 100%;
-  z-index: 1200;
   background-color: #ffffff;
   padding-left: 20px;
   padding-right: 20px;
-  height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
