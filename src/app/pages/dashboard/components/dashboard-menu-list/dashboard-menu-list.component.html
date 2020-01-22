@@ -5,8 +5,12 @@
       <i class="fa fa-plus"></i>
     </button>
     <div class="dashboard-menu-search">
-      <input type="text" class="dashboard-search-input" placeholder="Search for dashboard"
-        (keyup)="onSearchDashboard($event)" />
+      <mat-form-field class="w-100">
+        <mat-label>Search Dashboard</mat-label>
+        <input matInput type="text" (keyup)="onSearchDashboard($event)" />
+        <mat-icon matPrefix>search</mat-icon>
+      </mat-form-field>
+
     </div>
   </li>
   <!-- end of dashboard menu search and add button -->
