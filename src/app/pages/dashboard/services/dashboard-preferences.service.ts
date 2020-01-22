@@ -21,27 +21,7 @@ export class DashboardPreferencesService {
   constructor(private httpClient: NgxDhis2HttpClientService) {}
 
   get() {
-    return this._getFromFile().pipe(
-      switchMap((dashboardPreferences: DashboardPreferences) => {
-        const dataStoreUrl = `${dataStoreNamespace}/${
-          dashboardPreferences ? dashboardPreferences.namespace : 'default'
-        }`;
-
-        return this.httpClient.get(dataStoreUrl).pipe(
-          catchError((error: any) => {
-            if (error.status !== 404) {
-              return throwError(error);
-            }
-
-            if (!dashboardPreferences) {
-              return of(defaultDashboardPreferences);
-            }
-
-            return this.create(dashboardPreferences);
-          })
-        );
-      })
-    );
+    return this._getFromFile();
   }
 
   create(dashboardPreferences: DashboardPreferences) {
@@ -63,10 +43,20 @@ export class DashboardPreferencesService {
   }
 
   private _getFromFile(): Observable<DashboardPreferences> {
-    return this.httpClient
-      .get(preferenceFileLink, {
-        isExternalLink: true
-      })
-      .pipe(catchError(() => of(null)));
+    // return this.httpClient
+    //   .get(preferenceFileLink, {
+    //     isExternalLink: true
+    //   })
+    //   .pipe(catchError(() => of(null)));
+
+    return of({
+      id: 'hris',
+      namespace: 'hris',
+      appName: 'HRIS Dashboard',
+      dashboardSource: 'API',
+      favoriteSource: 'API',
+      menuAlignment: 'left',
+      menuType: 'standard'
+    });
   }
 }

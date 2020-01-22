@@ -11,7 +11,7 @@ export interface DashboardPreferences {
   defaultDashboardItems?: DashboardItem[];
   favoriteSource: string;
   dataSelectionPreferences?: DataSelectionPreferences;
-  customAttributes: string[];
+  customAttributes?: string[];
   menuAlignment: string;
   menuType: string;
   selectionFilterConfig?: SelectionFilterConfig;

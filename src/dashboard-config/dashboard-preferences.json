@@ -1,45 +1,9 @@
 {
-  "id": "dqa-dashboard",
-  "namespace": "dqa-dashboard",
-  "appName": "Data Quality Dashboard",
-  "dashboardSource": "DATASTORE",
-  "defaultDashboardItems": [
-    {
-      "type": "CHART",
-      "shape": "FULL_WIDTH",
-      "height": "450px"
-    },
-    {
-      "type": "APP",
-      "shape": "FULL_WIDTH",
-      "appKey": "DQA-Widget",
-      "height": "700px"
-    }
-  ],
-  "favoriteSource": "DATASTORE",
-  "dataSelectionPreferences": {
-    "chart": {
-      "excludeOrgUnitChildren": true,
-      "useLowestPeriodType": true,
-      "dimensionsToExclude": ["vrg"]
-    },
-    "app": {
-      "useLowestPeriodType": true
-    }
-  },
+  "id": "hris",
+  "namespace": "hris",
+  "appName": "HRIS Dashboard",
+  "dashboardSource": "API",
+  "favoriteSource": "API",
   "menuAlignment": "left",
-  "menuType": "standard",
-  "selectionFilterConfig": {
-    "allowStepSelection": true,
-    "stepSelections": ["dx", "vrg", "pe"],
-    "dataFilterConfig": {
-      "singleSelection": true,
-      "showGroupingButton": false,
-      "enabledSelections": ["in"]
-    },
-    "periodFilterConfig": {
-      "singleSelection": true,
-      "childrenPeriodSortOrder": "ASC"
-    }
-  }
+  "menuType": "standard"
 }
