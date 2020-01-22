@@ -13,13 +13,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 52px;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* height: 52px; */
+  padding: 9px;
 }
 
 .dashboard-item-list {
-  margin-top: 110px;
+  margin-top: 50px;
   padding: 15px;
   grid-gap: 15px;
   display: grid;
